@@ -1,0 +1,16 @@
+{
+  "name": "workflow-contracts",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Shared DTOs for laboratory workflow modules and micro-frontends.",
+  "type": "module",
+  "main": "dist/workflow.js",
+  "types": "dist/workflow.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
